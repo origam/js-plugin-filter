@@ -47,7 +47,6 @@ jobs:
         languages: ${{ matrix.language }}
 
     - run: |
-            cd frontend-html
             yarn
             yarn build
 
