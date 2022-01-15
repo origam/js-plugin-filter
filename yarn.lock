@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@origam/components/-/components-1.0.0.tgz#5c551ef5a1778018fbb5118d39114f74af5f183e"
   integrity sha512-mP1kjUQIW6WHbafBRSvUSzaQyU5kHzoGodT9rNnedgbAGsmw0I1DTnF9rcyOwev0m98cO56VhtMwBEDXtNWc1Q==
 
-"@origam/plugin-interfaces@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@origam/plugin-interfaces/-/plugin-interfaces-1.0.0.tgz#f393a21243051559eacc6793dc77c2e43bcfb07a"
-  integrity sha512-ttaWDJr4Xc5MiKCpsP/8gMBoiVr+1ptCb9dMRAejZaTB7OweDtxKD85Fk1GMHoI3onm4pC0kEAM7pl8t+7fidg==
+"@origam/plugin-interfaces@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@origam/plugin-interfaces/-/plugin-interfaces-1.2.0.tgz#990e216034e84a05950c2323288ea6bdd0267aea"
+  integrity sha512-ZHaWRskYiVtl3ngyLGNxgS+LWbvqXd9MbEIhbpIsp1XKuoP0G9j7Fns12SRNLBwiCRaYlzKw8gbqrWVTQU3gog==
 
 "@origam/styles@^1.0.0":
   version "1.0.0"
@@ -2253,10 +2253,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.59.0:
-  version "2.60.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.60.0.tgz#4ee60ab7bdd0356763f87d7099f413e5460fc193"
-  integrity sha512-cHdv9GWd58v58rdseC8e8XIaPUo8a9cgZpnCMMDGZFDZKEODOiPPEQFXLriWr/TjXzhPPmG5bkAztPsOARIcGQ==
+rollup@^2.64.0:
+  version "2.64.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.64.0.tgz#f0f59774e21fbb56de438a37d06a2189632b207a"
+  integrity sha512-+c+lbw1lexBKSMb1yxGDVfJ+vchJH3qLbmavR+awDinTDA2C5Ug9u7lkOzj62SCu0PKUExsW36tpgW7Fmpn3yQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
