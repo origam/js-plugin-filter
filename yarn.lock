@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@origam/plugin-interfaces/-/plugin-interfaces-1.3.0.tgz#b5614a5ff93a9ccf2ad990dab9a8f8f29867490a"
   integrity sha512-SiOmdQWRJ4pp3zSmWnQN3jLb9s4hFy+4vpgg4meXTWuyCs5zaNT2hKrF5dPeh1UUEnl4qGj5KQ8x6/CLFCCxdg==
 
-"@origam/styles@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@origam/styles/-/styles-1.0.0.tgz#86f710ddd2294e2e45c2aa9ead5247e9d68ec4b8"
-  integrity sha512-3rHnSKIkApTZlnlP0BDQDEoCXfSWGD/NwQP8vKgB/oBzVj6iNTwK2UpHPL5XTRjcDQSqCjsh1KEWy8XQbNSnqA==
+"@origam/styles@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@origam/styles/-/styles-2.0.0.tgz#be7baab72421a04f1bff17e5ba8a7a9a106b96a1"
+  integrity sha512-hTr10Kz0KPkkJCkmTwpWheu2y/KUFs4mAEFObMmE5yXTXIa6sf+WCNP+rzSrrowxM8g/Gl0i9X0Gneu2HeIHZg==
 
 "@origam/utils@^1.0.1":
   version "1.0.1"
