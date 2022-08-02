@@ -22,9 +22,9 @@ import S from './FilterPlugin.module.scss';
 import {
   ILocalization,
   ILocalizer,
-  IPluginData,
+  IScreenPluginData,
   IScreenPlugin
-} from "@origam/plugin-interfaces";
+} from "@origam/plugins";
 import { toOrigamServerString } from "@origam/utils";
 import moment from "moment";
 import { Moment } from "moment/moment";
@@ -45,6 +45,9 @@ export class FilterPlugin implements IScreenPlugin {
   private async refresh() {
     this.setParameters();
     await this.requestSessionRefresh?.();
+  }
+
+  onSessionRefreshed(): void {
   }
 
   @observable
@@ -77,7 +80,7 @@ export class FilterPlugin implements IScreenPlugin {
     this.setScreenParameters?.(parameters);
   }
 
-  getComponent(data: IPluginData, createLocalizer: (localizations: ILocalization[]) => ILocalizer): JSX.Element {
+  getComponent(data: IScreenPluginData, createLocalizer: (localizations: ILocalization[]) => ILocalizer): JSX.Element {
     let localizer = createLocalizer(localizations);
     for (let timeUnit of this.timeUnits) {
       timeUnit.label = localizer.translate(timeUnit.value)
