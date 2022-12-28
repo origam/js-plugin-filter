@@ -2,10 +2,12 @@
 # yarn lockfile v1
 
 
-"@origam/components@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@origam/components/-/components-1.0.0.tgz#5c551ef5a1778018fbb5118d39114f74af5f183e"
-  integrity sha512-mP1kjUQIW6WHbafBRSvUSzaQyU5kHzoGodT9rNnedgbAGsmw0I1DTnF9rcyOwev0m98cO56VhtMwBEDXtNWc1Q==
+"@origam/components@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@origam/components/-/components-1.6.1.tgz#aec56ffca179a1499f6756e195d502d963899772"
+  integrity sha512-Stw+bikH2JExaYvnOSBPChsrhbzJsi1JHiFhPq0CSqye4wydjxFDNxCF7HN5wzEahCtWxaRYbTMxzGHhcxVwfw==
+  dependencies:
+    react-inlinesvg "^3.0.1"
 
 "@origam/plugins@^1.0.2":
   version "1.0.2"
@@ -836,6 +838,11 @@ eventemitter3@^4.0.4:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
+exenv@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha512-Z+ktTxTwv9ILfgKCk32OX3n/doe+OcLTRtqK9pcL+JsP3J1/VW8Uvl4ZjLlKqeW4rzK4oesDOGMEMRIZqtP4Iw==
 
 extend@~3.0.2:
   version "3.0.2"
@@ -2097,6 +2104,19 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-from-dom@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.6.2.tgz#9da903a508c91c013b55afcd59348b8b0a39bdb4"
+  integrity sha512-qvWWTL/4xw4k/Dywd41RBpLQUSq97csuv15qrxN+izNeLYlD9wn5W8LspbfYe5CWbaSdkZ72BsaYBPQf2x4VbQ==
+
+react-inlinesvg@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-3.0.1.tgz#2133f5d2c770ac405060db2ce1c13eed30e7e83b"
+  integrity sha512-cBfoyfseNI2PkDA7ZKIlDoHq0eMfpoC3DhKBQNC+/X1M4ZQB+aXW+YiNPUDDDKXUsGDUIZWWiZWNFeauDIVdoA==
+  dependencies:
+    exenv "^1.2.2"
+    react-from-dom "^0.6.2"
 
 react@^17.0.2:
   version "17.0.2"
