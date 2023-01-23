@@ -67,10 +67,10 @@
   dependencies:
     react-inlinesvg "^3.0.1"
 
-"@origam/plugins@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@origam/plugins/-/plugins-1.0.2.tgz#1b95327b86eeddce9efdace2f7e0fafeb0badcc7"
-  integrity sha512-Mut5PsG9JEYBHdQGBbtsy3v/fHW0Aia8+kzeTX4QU/DHi2mRRTBp8EjFQE8Pwy8SnuEi3Lev3L2jQjpKQ538KQ==
+"@origam/plugins@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@origam/plugins/-/plugins-1.1.0.tgz#4bf6e9a3c408633809b6f1810da13eb1f00d47af"
+  integrity sha512-celtwEjZcs8p9ZDmATw1r7yAvXmDKUc+Y6xkNfObTin4kOQxEMNqCw1DT/FriW20sUOeYq71DN3v36JdoMJ5uA==
   dependencies:
     "@origam/utils" "^1.1.1"
     mobx "5"
@@ -80,10 +80,10 @@
   resolved "https://registry.yarnpkg.com/@origam/styles/-/styles-2.0.2.tgz#505dade3528f969895fdd931391eeae43ae51257"
   integrity sha512-MPp0M+w2f3ovN3O5jnGyvN1gWZvpzeDbOjqAEzN6Xw6lgZZeT+OFUk4Hul/Qpav0EDklDFuqHu66p9JRMhReKQ==
 
-"@origam/utils@^1.0.1", "@origam/utils@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@origam/utils/-/utils-1.1.1.tgz#b0d4d1bb358b293cfcaf79e0b0ed745be53d91c9"
-  integrity sha512-Kt2Dn8nO2PyJfgeZGeUXKcnn7Gp8vQCDlw91/XLZ9zmN7dRb39vwqRvlBP1L/jCpGQ5NiH2VuebtTuPEvuXo0Q==
+"@origam/utils@^1.1.1", "@origam/utils@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@origam/utils/-/utils-1.2.0.tgz#2c19717654ef1566307e2f173fc83f7afe6d6f1c"
+  integrity sha512-lLVY0mAO/7M/vIzzxPXplgcY0bfe/mXNclEDXd+DFdVGG3u5C1CXhUfEFnbKqn9PP4CfYfjMOCq3Q5hkteJIlA==
   dependencies:
     moment "^2.29.1"
 
@@ -2813,10 +2813,10 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-typescript@^4.5.4:
-  version "4.7.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
-  integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
+typescript@^4.9.4:
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
+  integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
 
 uniqs@^2.0.0:
   version "2.0.0"
