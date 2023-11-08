@@ -60,12 +60,12 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@origam/components@^1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@origam/components/-/components-1.6.3.tgz#1d01d9c0d7c0a02af72d361be59bad401ffa7520"
-  integrity sha512-7jWHD0u2yaSTS8DG2FkIosMcnRbntctN6XMeH6s+R4VCnHO2nJU+0wjuZUgN1pOaH4wgIEkcEFO3SyNEbnPaxA==
+"@origam/components@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@origam/components/-/components-2.0.1.tgz#38fd19cafa282e085406cce1f22953c85a18e2cc"
+  integrity sha512-BqFVvVW7F56kLfzqJz2RxpQLMDCXPQEzUSmC9yJq5H/D1gbiyvJo22CLyC29/8MImHNlZf3VbK7JzhGo5RFQdQ==
   dependencies:
-    react-inlinesvg "^4.0.3"
+    react-inlinesvg "^4.0.5"
 
 "@origam/plugins@^1.1.0":
   version "1.1.0"
@@ -2259,10 +2259,10 @@ react-from-dom@^0.6.2:
   resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.6.2.tgz#9da903a508c91c013b55afcd59348b8b0a39bdb4"
   integrity sha512-qvWWTL/4xw4k/Dywd41RBpLQUSq97csuv15qrxN+izNeLYlD9wn5W8LspbfYe5CWbaSdkZ72BsaYBPQf2x4VbQ==
 
-react-inlinesvg@^4.0.3:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-4.0.4.tgz#100e377ed13f71f24e08055882a4b8981038e638"
-  integrity sha512-OnXi+IHoY2zj6rt+kLmXQth9HZ3rS1TDtDwjFbELcCZngAJC32nXp2ZzLp4FpijzISDe7YfHI3SFs9qALWv+xw==
+react-inlinesvg@^4.0.5:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-4.1.0.tgz#5afc978f8a43e9a94aabb1fa4a5cd21a18fbe14f"
+  integrity sha512-S7kSE6ldKVpumEYTNXmCs4pAKoDzklP6TklI8oBx23fw8/+VBwO5X0M7/Ii0weieO1DqElUJg5EI8cq7zo5oPg==
   dependencies:
     react-from-dom "^0.6.2"
 
